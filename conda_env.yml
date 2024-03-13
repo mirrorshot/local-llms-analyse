@@ -1,0 +1,25 @@
+name: expense-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - git
+  - jupyter
+  - jupyter_contrib_nbextensions
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - pip
+  - python=3.11
+  - scikit-learn
+  - seaborn
+  - sqlalchemy
+  - pip:
+      - black
+      - langchain_community
+      - panel
+      - plotly
+      - pydantic
+      - python-dotenv
+prefix: ~/miniconda3

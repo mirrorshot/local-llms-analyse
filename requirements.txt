@@ -1,0 +1,10 @@
+jupyter
+pandas
+numpy
+langchain_community
+plotly
+panel
+pydantic
+python-dotenv
+requests
+black
